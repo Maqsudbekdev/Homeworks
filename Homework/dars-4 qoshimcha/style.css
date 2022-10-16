@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+}
+.sidebar{
+    width: 150px;
+    height: 100vh;
+    background-color: blueviolet;
+    margin-left: -150px;
+    transition: .5s;
+}
+#bars{
+    margin: 30px;
+    font-size: 30px;
+}
+#close{
+    margin: 30px;
+    font-size: 30px;
+    display: none;
+}

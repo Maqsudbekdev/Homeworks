@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(173, 172, 172);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    height: 450px;
+    width: 450px;
+    border-radius: 50px;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.top{
+    height: 110px;
+    width: 100%;
+    background-color: red;
+    border-radius: 50px 50px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+.top>h1{
+    color: #fff;
+    font-size: 40px;
+
+
+}
+.bottom{
+    height: 340px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0px 0px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+.bottom_container{
+    height: 220px;
+    width: 100%;
+    display: flex;
+
+}
+.box{
+    height: 100%;
+    width: 50%;
+    border-right: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box>h1{
+    font-size: 160px;
+    color: gray;
+}
+.box>p{
+    font-size: 30px;
+    color: gray;
+}
+.box1{
+    height: 100%;
+    width: 50%;
+    border-left: 2px solid gray;
+}
+.box1>div{
+    height: 33%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.box1>div>p{
+    font-size: 20px;
+    color: gray;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.box1>div:hover{
+    cursor: pointer;
+}
+.box1>div>p>span{
+    font-size: 17px;
+    font-weight: 500;
+}
+.red{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: red;
+}
+.green{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: green;
+}
+.yellow{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.backside{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    transition: .3s;
+
+}
+.backsideActive{
+    transform: translateY(150px);
+}
+.backside>p{
+    font-size: 22px;
+    color: #fff;
+    margin-top: 340px;
+    margin-left: 50px;
+}
+.backside>p>span{
+    font-size: 18px;
+    color: rgb(214, 212, 212);
+}
+.btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    bottom: 35px;
+    right: 50px;
+    border: 4px solid #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#times{
+    display: none;
+    font-size: 40px;
+}
+
+.backside2{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    background-color: gold;
+    background-color: gold;
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    transition: .3s;
+
+}
+.backsideActive2{
+    transform: translateY(150px);
+    background-color: gold;
+}
+.backside2>p{
+    font-size: 22px;
+    color: #fff;
+    margin-top: 340px;
+    margin-left: 50px;
+}
+.backside2>p>span{
+    font-size: 18px;
+    color: white;
+}
+.btn2{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    bottom: 35px;
+    right: 50px;
+    border: 4px solid #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#times2{
+    display: none;
+    font-size: 40px;
+}
+
+.backside3{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+    transition: .3s;
+
+}
+.backsideActive3{
+    transform: translateY(150px);
+    
+}
+.backside3>p{
+    font-size: 22px;
+    color: #fff;
+    margin-top: 340px;
+    margin-left: 50px;
+}
+.backside3>p>span{
+    font-size: 18px;
+    color: rgb(214, 212, 212);
+}
+.btn3{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    bottom: 35px;
+    right: 50px;
+    border: 4px solid #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#times3{
+    display: none;
+    font-size: 40px;
+}

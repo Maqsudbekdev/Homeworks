@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: black;
+}
+.box1{
+    height: 350px;
+    width: 800px;
+    background-color: rgb(20, 20, 37);
+    border-radius: 25px  25px 0px 0px;
+}
+.top{
+    height: 100px;
+    width: 800px;
+    background-color: rgb(20, 20, 37);
+    border-radius: 25px 25px 0px 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.banner_title{
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    flex: 1;
+    margin-left: 30px;    
+}
+#right{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    right: 30px;
+}
+#down{
+    display: none;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    right: 30px;
+}
+.bottom{
+
+    width:800px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0px;
+    transition: .5s;
+    
+}
+.second{
+    height: 250px;
+    transition: .5s;
+    transform-origin: top;
+}
+.bottom>p{
+    display: none;
+
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+}
+.top2{
+    height: 100px;
+    width: 800px;
+    background-color: rgb(20, 20, 37);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#right2{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    right: 30px;
+}
+#down2{
+    display: none;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    right: 30px;
+}
+.bottom2{
+    height: 0px;
+    width: 800px;
+    background-color: white;
+    transition: .5s;
+}
+.desc2{
+    display: none;
+
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;   
+}
+.second2{
+    height: 200px;
+    transition: .5s;
+}
+.desc3{
+    display: none;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+}
+.top3{
+    height: 100px;
+    width: 800px;
+    background-color: rgb(20, 20, 37);
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 0px 0px 25px 25px;
+}
+#right3{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    right: 30px;
+}
+#down3{
+    display: none;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    right: 30px;
+}
+.bottom3{
+    height: 0px;
+    width: 800px;
+
+    background-color: white;
+    transition: .5s;
+    transition: .5s;
+}
+.second3{
+    height: 100px;
+    transition: .5s;
+    border-radius: 0px 0px 25px 25px;
+}

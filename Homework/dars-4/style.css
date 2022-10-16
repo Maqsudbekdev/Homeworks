@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+.menu{
+    height: 700px;
+    width: 420px;
+    background-color: white;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 100px;
+    background-color: rgb(60, 60, 153);
+    display: flex;
+    justify-content: center;
+    transition: .5s;
+    transform-origin: left;
+}
+
+.left>div{
+    height: 100%;
+    width: 55px;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+
+}
+.left>div>i{
+    font-size: 35px ;
+    color: aliceblue;
+}
+.left>div>i:hover{
+    color:rgb(168, 160, 160);
+}
+
+.right{
+    height: 100%;
+    width: 320px;
+    
+    position: relative;
+    transition: .5s;
+    transform-origin: right;
+}
+.right>h1{
+    position: absolute;
+    top: 80px;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.menu_btn{
+    top: 10px;
+    left: 15px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    position: absolute;
+    font-size: 30px;
+    color: rgb(42, 15, 138);
+    background: transparent;
+    
+}
+.exit_btn{
+    top: 10px;
+    left: 15px;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    display: none;
+    color: rgb(42, 15, 138);
+    position: absolute;
+
+}

@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.small_div{
+    height: 90vh;
+    width: 90px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.get_big{
+    height: 90vh;
+    width: 250px;
+    transform-origin: left;
+    background-color: #fff;
+    border-radius: 15px;
+}
+#logo{
+    font-size: 30px;
+    color: dodgerblue;
+    margin-bottom: 30px;
+    margin-top: -40px;
+    
+}
+.box{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: relative;
+    margin: 7px 0px;
+}
+.box>i{
+    font-size: 30px;
+    color: gray;
+}
+
+.box2{
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 20px;
+
+}
+.box2>i{
+    font-size: 40px;
+    color: black;
+}
+.r_box{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.r_box>i{
+    font-size: 40px;
+}
+.ship_box{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ship_box>i{
+    font-size: 40px;
+    color: #fff;
+}
+.plus_box{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus_box>i{
+    font-size: 40px;
+    color: black;
+
+}
+
+.img_box{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+
+}
+.img_box>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-top: 70px;
+    
+}
+.desc{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    right: -220px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -30px;
+    display: none;
+}
+.desc>p{
+    line-height: 1.4;
+    width: 80%;
+    color: gray;
+    z-index: 2;
+    margin-left: 40px;
+}
+.second{
+    display: block;
+}
+.desc>div{
+    top: 40px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: -10px;
+    
+
+}
+.desc2{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    right: -220px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -30px;
+    display: none;
+}
+.desc2>p{
+    line-height: 1.4;
+    width: 80%;
+    color: gray;
+    z-index: 2;
+    margin-left: 40px;
+}
+.rotate2{
+    top: 40px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: -10px;
+}
+.second2{
+    display: block;
+}
+.desc3{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    right: -220px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -30px;
+    display: none;
+}
+.desc3>p{
+    line-height: 1.4;
+    width: 80%;
+    color: gray;
+    z-index: 2;
+    margin-left: 40px;
+}
+.rotate3{
+    top: 40px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: -10px;
+}
+.second3{
+    display: block;
+}
+.box:hover{
+    background-color: dodgerblue;
+}
+.box:hover>i{
+    color: #fff;
+}
+.desc4{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    position: absolute;
+    right: -220px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -30px;
+    display: none;
+}
+.desc4>p{
+    line-height: 1.4;
+    width: 80%;
+    color: gray;
+    z-index: 2;
+    margin-left: 40px;
+}
+.rotate4{
+    top: 40px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: -10px;
+}
+.second4{
+    display: block;
+}
